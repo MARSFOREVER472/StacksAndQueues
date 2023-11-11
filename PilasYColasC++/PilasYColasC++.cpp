@@ -7,7 +7,7 @@ using namespace std; // IMPORTANTE!!!!!!!!!!
 
 // VALIDAR SI EL NÚMERO ES CAPICÚA O NO (123321 ES CAPICÚA, EN ESE CASO).
 
-void capicua()
+bool capicua()
 {
     string answer; // RESPUESTA.
     cout << "Largo del vector: "; // DESPLIEGA EL LARGO DEL VECTOR.
@@ -48,6 +48,59 @@ void capicua()
     // - back(): RETORNA EL ÚLTIMO OBJETO INGRESADO DENTRO DE UNA FILA O COLA.
     // - empty[bool](): True SI LA ESTRUCTURA DE DATOS ESTÁ VACÍA O NULA, False SI ES QUE ÉSTA MISMA NO ESTÁ VACÍA O NULA.
     // - size(): RETORNA EL TAMAÑO DE UNA ESTRUCTURA DE DATOS.
+
+    int half; // MITAD DEL ARREGLO DE UN VECTOR.
+
+    if (vector_long % 2 == 0) // SI EL LARGO DEL VECTOR ES UN NÚMERO PAR.
+    {
+        half = vector_long / 2; // LA MITAD DE UN ARREGLO SERÍA UN NÚMERO ENTERO.
+    }
+
+    // EN CASO CONTRARIO...
+
+    else
+    {
+        // 3 2 1 4 1 2 3 (CAPICÚA).
+        // 0 HASTA LA MITAD = 3.
+        // POSICIONES = 0, 1, 2.
+        // POSICIONES = 4, 5, 6.
+
+        half = vector_long / 2 + 1;
+    }
+
+    // CREAREMOS UN CICLO "for" PARA EJECUTAR LAS FUNCIONES DENTRO DE UNA PILA O UNA COLA.
+
+    for (int i = 0; i < vector_long / 2; i++) // PARA LA PILA.
+    {
+        s->push(vec_num[i]);
+    }
+
+    for (int i = half; i < vector_long; i++) // PARA LA COLA.
+    {
+        q->push(vec_num[i]);
+    }
+
+    // MIENTRAS QUE EN UNA PILA DEL VECTOR "NO" ESTÉ VACÍA.
+
+    while (!s->empty())
+    {
+        // SI EL ÚLTIMO ELEMENTO INGRESADO EN UNA PILA ES DISTINTO AL DEL PRIMER VALOR INGRESADO EN UNA COLA, ENTONCES RETORNA FALSO.
+
+        if (s->top() != q->front())
+        {
+            cout << "NO SON CAPICUAS.";
+            return false;
+        }
+
+        // SI NO SE CUMPLEN CON ESTA CONDICIÓN.
+
+        s->pop(); // ELIMINA ESTE VALOR DEL ARREGLO DENTRO DE UNA PILA.
+        q->pop(); // ELIMINA ESTE VALOR DEL ARREGLO DENTRO DE UNA COLA.
+    }
+
+    cout << "ES CAPICUA.";
+    return true;
+    
 }
 
 int main()
