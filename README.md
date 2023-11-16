@@ -15,13 +15,14 @@ formas, una de ellas es a través de una lista enlazada en la cual cada
 componente apunta a su predecesor excepto el primer componente que 
 apuntará a Nil para indicar el final de la lista.
 Esta forma de representación puede ser caracterizada por:
+```
 Type
 Pila = ^Lista;
 Lista = Record
 Elemento : Tipo de dato;
 Predecesor : Pila;
 end;
-
+```
 ...donde Pila es la variable puntero, Lista la variable referenciada y Tipo de dato es 
 el tipo de dato que corresponde a la información que se desea almacenar.
 
