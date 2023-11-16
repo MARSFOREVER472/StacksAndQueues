@@ -88,7 +88,7 @@ solamente se añade un apuntador al último elemento.
 
 Esta forma de representación puede ser caracterizada por:
 
-
+```
 Type
 
 Cola = ^Lista;
@@ -108,7 +108,7 @@ Inicio : Cola;
 Fin : Cola;
 
 end;
-
+```
 
 En la formación de la cola cada nuevo componente que se cree será el último 
 por lo que deberá apuntar a Nil y el que era el último hasta ese momento 
