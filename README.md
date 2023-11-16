@@ -31,7 +31,7 @@ predecesor.
 
 Las operaciones de inserción y extracción de elementos en la pila pueden 
 definirse entonces por:
-
+```
 Procedure Insertar (Var Ultimo : Pila; Informacion : Tipo de dato);
 
 Var
@@ -66,7 +66,7 @@ Ultimo := Ultimo.Predecesor;
 end
 
 end;
-
+```
 
 Antes de usarlos se debe declarar dos variables: una de tipo Pila y la otra de 
 tipo Tipo de dato para almacenar en ellas los valores que devuelven los 
