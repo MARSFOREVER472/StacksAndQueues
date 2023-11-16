@@ -116,7 +116,7 @@ apuntará al nuevo componente pasando a ser el penúltimo.
 
 La operación de inserción se puede definir por:
 
-
+```
 Procedure Insertar (Var Ultimo : Punteros; Informacion : Tipo de dato);
 
 Var
@@ -152,7 +152,7 @@ Ultimo.Fin := Nuevo;
 end;
 
 end;
-
+```
 
 y la de extracción por:
 
