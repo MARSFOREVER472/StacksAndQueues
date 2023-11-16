@@ -156,7 +156,7 @@ end;
 
 y la de extracción por:
 
-
+```
 Procedure Extraer (Var Ultimo : Punteros; Var Información : Tipo de dato);
 
 begin
@@ -172,7 +172,7 @@ Ultimo.Inicio := Ultimo.Inicio.Proximo;
 end;
 
 end;
-
+```
 
 Antes de usarlos se debe declarar una variable de tipo Punteros y otra de tipo 
 Tipo de dato e inicializar los punteros Inicio y Fin de la variable Punteros a Nil.
