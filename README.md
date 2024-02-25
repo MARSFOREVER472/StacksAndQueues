@@ -1,6 +1,6 @@
 # StacksAndQueues
 
-Para empezar...
+Antes de comenzar...
 
 ## Qué son las pilas y filas en C++?
 
