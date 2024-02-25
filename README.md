@@ -30,8 +30,8 @@ el tipo de dato que corresponde a la información que se desea almacenar._
 _La pila se formará creando cada nuevo componente y enlazándolo después a su 
 predecesor._
 
-Las operaciones de inserción y extracción de elementos en la pila pueden 
-definirse entonces por:
+**Las operaciones de inserción y extracción de elementos en la pila pueden 
+definirse entonces por:**
 ```
 Procedure Insertar (Var Ultimo : Pila; Informacion : Tipo de dato);
 
