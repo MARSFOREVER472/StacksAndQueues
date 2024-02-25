@@ -84,8 +84,7 @@ crear y destruir variables dinámicamente._
 
 _Es una lista lineal en la que los elementos solo pueden ser añadidos por un extremo y eliminados por el otro._
 
-_Para las colas se utilizan las mismas representaciones que para las pilas, 
-solamente se añade un apuntador al último elemento._
+_Para las colas se utilizan las mismas representaciones que para las pilas, solamente se añade un apuntador al último elemento._
 
 Esta forma de representación puede ser caracterizada por:
 
