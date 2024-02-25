@@ -10,10 +10,10 @@ _Una pila es una estructura lineal en la que los elementos pueden ser añadidos 
 eliminados solo por el final y una cola es una lista lineal en la que los elementos 
 solo pueden ser añadidos por un extremo y eliminados por el otro._
 
-Las pilas se pueden representar en la memoria de la computadora de varias 
+_Las pilas se pueden representar en la memoria de la computadora de varias 
 formas, una de ellas es a través de una lista enlazada en la cual cada 
 componente apunta a su predecesor excepto el primer componente que 
-apuntará a Nil para indicar el final de la lista.
+apuntará a Nil para indicar el final de la lista._
 Esta forma de representación puede ser caracterizada por:
 ```
 Type
