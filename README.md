@@ -69,9 +69,10 @@ end
 end;
 ```
 
-_Antes de usarlos se debe declarar dos variables: una de tipo Pila y la otra de 
+- _Antes de usarlos se debe declarar dos variables: una de tipo Pila y la otra de 
 tipo Tipo de dato para almacenar en ellas los valores que devuelven los 
-procedimientos en las variables Ultimo e Información. Inicialice la variable de tipo 
+procedimientos en las variables Ultimo e Información._
+- Inicialice la variable de tipo 
 Pila a Nil._
 
 Esta forma de representación de las pilas mediante lista enlazadas es muy útil 
