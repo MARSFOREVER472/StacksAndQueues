@@ -114,7 +114,7 @@ _En la formación de la cola cada nuevo componente que se cree será el último
 por lo que deberá apuntar a Nil y el que era el último hasta ese momento 
 apuntará al nuevo componente pasando a ser el penúltimo._
 
-La operación de inserción se puede definir por:
+**La operación de inserción se puede definir por:**
 
 ```
 Procedure Insertar (Var Ultimo : Punteros; Informacion : Tipo de dato);
