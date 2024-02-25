@@ -174,7 +174,7 @@ end;
 end;
 ```
 
-_Antes de usarlos se debe declarar una variable de tipo Punteros y otra de tipo 
+_Antes de usarlos se debe declarar una variable de tipo "Punteros" y otra de tipo 
 Tipo de dato e inicializar los punteros Inicio y Fin de la variable "Punteros" a "Nil"._
 
 _Al igual que en el caso de las pilas, esta forma de representación de las colas es 
