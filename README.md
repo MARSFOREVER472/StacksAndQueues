@@ -86,7 +86,7 @@ _Es una lista lineal en la que los elementos solo pueden ser añadidos por un ex
 
 _Para las colas se utilizan las mismas representaciones que para las pilas, solamente se añade un apuntador al último elemento._
 
-Esta forma de representación puede ser caracterizada por:
+**Esta forma de representación puede ser caracterizada por:**
 
 ```
 Type
