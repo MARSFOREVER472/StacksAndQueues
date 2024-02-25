@@ -69,8 +69,8 @@ end
 end;
 ```
 
-- _Antes de usarlos se debe declarar dos variables: una de tipo Pila y la otra de 
-tipo Tipo de dato para almacenar en ellas los valores que devuelven los 
+- _Antes de usarlos se debe declarar dos variables: una de tipo "Pila" y la otra de 
+tipo "Tipo de dato" para almacenar en ellas los valores que devuelven los 
 procedimientos en las variables Ultimo e Información._
 - _Inicialice la variable de tipo Pila a Nil._
 
