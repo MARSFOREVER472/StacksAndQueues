@@ -27,8 +27,8 @@ end;
 _...en donde "Pila" es la variable puntero, "Lista" es la variable referenciada y "Tipo de dato" es 
 el tipo de dato que corresponde a la información que se desea almacenar._
 
-La pila se formará creando cada nuevo componente y enlazándolo después a su 
-predecesor.
+_La pila se formará creando cada nuevo componente y enlazándolo después a su 
+predecesor._
 
 Las operaciones de inserción y extracción de elementos en la pila pueden 
 definirse entonces por:
