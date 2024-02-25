@@ -14,6 +14,7 @@ _Las pilas se pueden representar en la memoria de la computadora de varias
 formas, una de ellas es a través de una lista enlazada en la cual cada 
 componente apunta a su predecesor excepto el primer componente que 
 apuntará a Nil para indicar el final de la lista._
+
 **Esta forma de representación puede ser caracterizada por:**
 ```
 Type
