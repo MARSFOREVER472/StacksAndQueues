@@ -154,7 +154,7 @@ end;
 end;
 ```
 
-y la de extracción por:
+**y la de extracción por:**
 
 ```
 Procedure Extraer (Var Ultimo : Punteros; Var Información : Tipo de dato);
