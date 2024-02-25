@@ -82,7 +82,7 @@ crear y destruir variables dinámicamente._
 
 ### Cola
 
-Es una lista lineal en la que los elementos solo pueden ser añadidos por un extremo y eliminados por el otro.
+_Es una lista lineal en la que los elementos solo pueden ser añadidos por un extremo y eliminados por el otro._
 
 Para las colas se utilizan las mismas representaciones que para las pilas, 
 solamente se añade un apuntador al último elemento.
