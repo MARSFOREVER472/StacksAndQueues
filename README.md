@@ -24,7 +24,7 @@ Elemento : Tipo de dato;
 Predecesor : Pila;
 end;
 ```
-_...donde Pila es la variable puntero, Lista la variable referenciada y Tipo de dato es 
+_...en donde Pila es la variable puntero, Lista la variable referenciada y Tipo de dato es 
 el tipo de dato que corresponde a la información que se desea almacenar._
 
 La pila se formará creando cada nuevo componente y enlazándolo después a su 
